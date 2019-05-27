@@ -1,5 +1,5 @@
 <template>
-  <div class="sidebar"
+  <div  class="sidebar"
        :style="sidebarStyle"
        :data-color="backgroundColor"
        :data-image="backgroundImage">
