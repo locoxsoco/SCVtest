@@ -43,7 +43,7 @@
     props: {
       title: {
         type: String,
-        default: 'SCV'
+        default: 'Vue LBD'
       },
       backgroundColor: {
         type: String,
