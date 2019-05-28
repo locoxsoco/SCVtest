@@ -22,11 +22,11 @@
         <i class="nc-icon nc-send"></i>
         <p>Admin de Aviones</p>
       </sidebar-link>
-      <sidebar-link to="/admin/maps">
+      <sidebar-link to="/admin/notifications">
         <i class="nc-icon nc-settings-gear-64"></i>
         <p>Admin de Puertas</p>
       </sidebar-link>
-      <sidebar-link to="/admin/notifications">
+      <sidebar-link to="/admin/maps">
         <i class="nc-icon nc-map-big"></i>
         <p>Visualización de mapa</p>
       </sidebar-link>
