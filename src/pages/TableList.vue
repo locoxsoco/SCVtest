@@ -7,18 +7,19 @@
                 body-classes="table-full-width table-responsive"
           >
             <template slot="header">
-              <h4 class="card-title">Striped Table with Hover</h4>
-              <p class="card-category">Here is a subtitle for this table</p>
+              <h4 class="card-title">Aeropuerto Jorge Chavez</h4>
+              <p class="card-category">Llegadas</p>
             </template>
             <l-table class="table-hover table-striped"
                      :columns="table1.columns"
-                     :data="table1.data">
+                     :data="table1.data"
+                     style="margin-left:0px !important">
             </l-table>
           </card>
 
         </div>
 
-        <div class="col-12">
+        <!--<div class="col-12">
           <card class="card-plain">
             <template slot="header">
               <h4 class="card-title">Table on Plain Background</h4>
@@ -47,7 +48,7 @@
             </l-table>
           </card>
 
-        </div>
+        </div>-->
 
       </div>
     </div>
@@ -56,41 +57,51 @@
 <script>
   import LTable from 'src/components/Table.vue'
   import Card from 'src/components/Cards/Card.vue'
-  const tableColumns = ['Id', 'Name', 'Salary', 'Country', 'City']
+  const tableColumns = ['Aerolinea', 'Vuelo', 'Procedencia', 'HoraProgramada', 'HoraReal','Estado','Puerta']
   const tableData = [{
-    id: 1,
-    name: 'Dakota Rice',
-    salary: '$36.738',
-    country: 'Niger',
-    city: 'Oud-Turnhout'
+    aerolinea: 1,
+    vuelo: 'Dakota Rice',
+    procedencia: '$36.738',
+    horaprogramada: 'Niger',
+    horareal: 'Oud-Turnhout',
+    estado: 'En vuelo',
+    puerta: 50
   },
   {
-    id: 2,
-    name: 'Minerva Hooper',
-    salary: '$23,789',
-    country: 'Curaçao',
-    city: 'Sinaai-Waas'
+    aerolinea: 2,
+    vuelo: 'Minerva Hooper',
+    procedencia: '$23,789',
+    horaprogramada: 'Curaçao',
+    horareal: 'Sinaai-Waas',
+    estado: 'En vuelo',
+    puerta: 28
   },
   {
-    id: 3,
-    name: 'Sage Rodriguez',
-    salary: '$56,142',
-    country: 'Netherlands',
-    city: 'Baileux'
+    aerolinea: 3,
+    vuelo: 'Sage Rodriguez',
+    procedencia: '$56,142',
+    horaprogramada: 'Netherlands',
+    horareal: 'Baileux',
+    estado: 'En vuelo',
+    puerta: 43
   },
   {
-    id: 4,
-    name: 'Philip Chaney',
-    salary: '$38,735',
-    country: 'Korea, South',
-    city: 'Overland Park'
+    aerolinea: 4,
+    vuelo: 'Philip Chaney',
+    procedencia: '$38,735',
+    horaprogramada: 'Korea, South',
+    horareal: 'Overland Park',
+    estado: 'En vuelo',
+    puerta: 18
   },
   {
-    id: 5,
-    name: 'Doris Greene',
-    salary: '$63,542',
-    country: 'Malawi',
-    city: 'Feldkirchen in Kärnten'
+    aerolinea: 5,
+    vuelo: 'Doris Greene',
+    procedencia: '$63,542',
+    horaprogramada: 'Malawi',
+    horareal: 'Feldkirchen in Kärnten',
+    estado: 'En vuelo',
+    puerta: 6
   }]
   export default {
     components: {

@@ -1,4 +1,4 @@
-<template>
+<!--<template>
   <ul class="nav nav-mobile-menu">
     <base-dropdown>
       <template slot="title">
@@ -33,7 +33,7 @@
       </a>
     </li>
   </ul>
-</template>
+</template>-->
 <script>
   export default {
     name: 'mobile-menu'

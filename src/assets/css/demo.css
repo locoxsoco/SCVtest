@@ -826,3 +826,26 @@
 .documentation .dropdown .dropdown-menu.show {
     transform: translate3d(0, 39px, 0) !important;
 }
+
+@media (min-width: 992px){
+    .table-full-width{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .table-responsive{
+        overflow: visible;
+    }
+
+}
+
+@media (max-width: 991px){
+    .table-responsive {
+        width: 100%;
+        margin-bottom: 15px;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        -ms-overflow-style: -ms-autohiding-scrollbar;
+        -webkit-overflow-scrolling: touch;
+    }
+
+}
