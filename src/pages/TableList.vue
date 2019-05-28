@@ -7,8 +7,7 @@
                 body-classes="table-full-width table-responsive"
           >
             <template slot="header">
-              <h4 class="card-title">Aeropuerto Jorge Chavez</h4>
-              <p class="card-category">Llegadas</p>
+              <h4 class="card-title">Llegadas del aeropuerto</h4>
             </template>
             <l-table class="table-hover table-striped"
                      :columns="table1.columns"
@@ -57,7 +56,7 @@
 <script>
   import LTable from 'src/components/Table.vue'
   import Card from 'src/components/Cards/Card.vue'
-  const tableColumns = ['Aerolinea', 'Vuelo', 'Procedencia', 'HoraProgramada', 'HoraReal','Estado','Puerta']
+  const tableColumns = ['Aerolinea', 'Vuelo', 'Procedencia', 'Hora Programada', 'Hora Real','Estado','Puerta']
   const tableData = [{
     aerolinea: 1,
     vuelo: 'Dakota Rice',
